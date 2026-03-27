@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return "Hello from Effective Mobile"
+    return "Hello from Effective Mobile!"

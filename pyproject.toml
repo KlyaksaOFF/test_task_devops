@@ -1,7 +1,7 @@
 [project]
 name = "test-task-effectivemobile"
 version = "0.1.0"
-description = "Add your description here"
+description = "test task"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
