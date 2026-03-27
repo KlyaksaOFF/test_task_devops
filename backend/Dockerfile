@@ -9,6 +9,8 @@ WORKDIR /app
 COPY pyproject.toml ./
 COPY uv.lock ./
 
+HEALTHCHECK CMD python -c "import urllib.request; urllib.request.urlopen('http://localhost:8080')"
+
 RUN uv sync
 
 COPY . .
